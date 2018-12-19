@@ -7,8 +7,15 @@ public class Project2 {
 		
 		Project1 basic = new Project1();  
 		// 객체화는 메소드가 아니라 클래스를 대상으로 
-		basic.basicProject1();
+		//basic.basicProject1();
+		basic.name("철수");
+		basic.name("영희");
+		basic.name("하민");
+		basic.name("강남");
+		basic.name("강북");
 		// Project1을 객체화 해서 basicProject1 에 있는 메소드를 호출 
 		
 	}
+	
+	
 }

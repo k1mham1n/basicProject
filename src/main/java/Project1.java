@@ -4,8 +4,14 @@
 public class Project1 { //public: ??고, class: 우리가 아는 그클래스, Project1은 직접지은이름
 	
 	public void basicProject1() {
-		
-		System.out.println("Hello,World! and this is basicProject1");
+	
+		System.out.println("Hello");
 		// System.out.println 무엇인지 
 	}
+	
+	public void name(String name) {
+		
+		System.out.println("Hello" + name);
+	}
+	
 }
