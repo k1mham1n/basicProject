@@ -16,6 +16,4 @@ public class Project2 {
 		// Project1을 객체화 해서 basicProject1 에 있는 메소드를 호출 
 		
 	}
-	
-	
 }

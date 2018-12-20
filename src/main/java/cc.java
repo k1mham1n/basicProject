@@ -11,11 +11,12 @@ public class cc {
 		// 숫자 3에다가 2를 더하고 3를 다시 곱하기
 		
 		// 3 * 5(3+2) = 15
-		//System.out.println(num2.number(num1.number(3)));
+		System.out.println(num2.number(num1.number(3)));
+		/*
 		int ss = num1.number(3);
 		System.out.println(ss);
 		int zz = num2.number(ss);
-		System.out.println(zz);
+		System.out.println(zz);*/
 		
 	}
 	
