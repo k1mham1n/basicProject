@@ -16,5 +16,4 @@ public class FishCake {
 	public void bake() {
 		System.out.println(name + "붕어빵이 만들어졌습니다." + num1 + "개를 팔고" + " " + num2 + "개가 남았습니다.");
 	}
-	
 }

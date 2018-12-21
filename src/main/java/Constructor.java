@@ -1,8 +1,9 @@
 // 메인 메소드를 포함하고 있는 클라스
 public class Constructor {
-		int number;
+		 
+	int number;
 	
-	// 전역변수 number 를 ++ 시켜주는 메소드
+	// 멤버변수 number 를 ++ 시켜주는 메소드
 	void numberUp() {
 		++number;
 	}
@@ -28,7 +29,6 @@ public class Constructor {
 			// number 값을 ++ 시켜주는 함수 호출
 			p2[i].numberUp();
 			System.out.printf("p2[%d].number=%d%n",i,p2[i].number);
-			//System.out.print(p2[i].number);
 		}
 		
 		System.out.println(p1.personinfo());
@@ -43,13 +43,15 @@ public class Constructor {
 		int year;
 		String name;
 		
-	// 생성자, 생성을 해주지 않아도 default로 생성자가 정의되긴 한다. 다만 위의 6번 줄에서 매개변수 자리에 인자 값이 없어야한다.
-/*	public Person(int age,String name) {
+	// 생성자, 생성을 해주지 않아도 default로 생성자가 정의되긴 한다. 다만 위의 6번 줄에서 매개변수 자리에 
+	// 매개변수 값이 없어야한다.
+		
+	/*	public Person(int age,String name) {
 		this.age = 23;
 		this.name = name;
 	}*/
 	
-		// 메소드
+		// getter 메소드
 		public String personinfo() {
 			this.age = 22;
 			this.name = "하민";
@@ -57,6 +59,7 @@ public class Constructor {
 			return "이름:" + name + ",나이:" + age;
 			}
 		
+		// getter 메소드
 		public String personinfo2() {
 			this.age = 23;
 			this.name = "김하민";
@@ -65,13 +68,13 @@ public class Constructor {
 			return "년도:" + year +",이름:" + name + ",나이:" + age;
 		}
 		
+		// getter 메소드
 		public int personinfo3(int tall) {
-			
 			return tall; 
 		}
 		
+		// getter 메소드
 		public String personinfo3(String weight) {
-			
 			return weight; 
 		}
 	}
